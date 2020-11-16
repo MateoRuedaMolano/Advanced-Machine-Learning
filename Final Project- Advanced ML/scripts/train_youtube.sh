@@ -1,0 +1,1 @@
+python ../src/train_previous_mask_auxiliary_loss_youtube.py -model_name=youtube_gru_1r_NLBx3_Auxiliary_Loss -RNN=GRU -NLB=True -dataset=youtube -batch_size=4 -length_clip=5 -base_model=resnet101 -max_epoch=10 --augment --resize -gpu_id=0

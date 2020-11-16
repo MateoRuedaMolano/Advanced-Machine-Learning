@@ -1,0 +1,1 @@
+python ../src/train_previous_mask.py -model_name=davis_gru_1r_nlbx3_auxiliar_loss_20epochs_verification -RNN=GRU -NLB=True -dataset=davis2017 -batch_size=4 -length_clip=5 -base_model=resnet101 -max_epoch=20 --augment --resize -gpu_id=1

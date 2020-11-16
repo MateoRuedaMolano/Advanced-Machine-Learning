@@ -1,0 +1,1 @@
+python ../src/train_previous_mask.py --transfer -transfer_from=youtube_gru_1r_NLBx3_Auxiliary_Loss_prev_mask -model_name=davis_pretrained_gru_1r_NLBx3_Auxiliary_Loss_40epochs -RNN=GRU -NLB=True -dataset=davis2017 -batch_size=3 -length_clip=5 -base_model=resnet101 -max_epoch=40 --augment --resize -gpu_id=0

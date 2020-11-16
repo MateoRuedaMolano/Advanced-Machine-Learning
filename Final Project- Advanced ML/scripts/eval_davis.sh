@@ -1,0 +1,1 @@
+python ../src/eval_previous_mask.py -model_name=davis_pretrained_gru_1r_NLBx3_Auxiliary_Loss_prev_mask -RNN=GRU -NLB=True -dataset=davis2017 -eval_split=test-dev -batch_size=1 -length_clip=130 -gpu_id=0
